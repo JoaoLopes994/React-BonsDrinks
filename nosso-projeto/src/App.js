@@ -14,7 +14,7 @@ function App() {
       <navbarHeader />
       <Botao />
       <Contato />
-      <Imagemcontato />
+      <Imagemcontato imagem={} />
       <Footer />
 
     </div>
