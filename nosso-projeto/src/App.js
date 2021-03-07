@@ -1,16 +1,21 @@
 import './App.css';
-import Header from './componentes/Cabecalho';
-import Body from './componentes/body';
-import Footer from './componentes/footer'
+import Home from './componentes/Home';
+import Footer from './componentes/Footer/Rodape'
+import Botao from './componentes/Botao/Botao';
+import Contato from './componentes/Contato/formulario-contato';
+import Header from './Componentes/Header/navbarHeader';
+import Imagemcontato from './Componentes/Imagem/ImagemContato';
 
 
 function App() {
   return (
-    <div className="corpoApp">
+    <div className="App-js">
 
-      <Cabecalho/>
-      <body/>
-      <footer/>
+      <navbarHeader />
+      <Botao />
+      <Contato />
+      <Imagemcontato />
+      <Footer />
 
     </div>
   );
